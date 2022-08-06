@@ -3,9 +3,6 @@
 # Created   : 8/4/22
 # Last Edit : 8/6/22
 
-tellraw @a "Reloaded!"
-
-
 scoreboard objectives add dies.master dummy
 scoreboard objectives add dies.setblock_frame_chest trigger
 scoreboard objectives add dies.object.render_distance dummy
