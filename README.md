@@ -28,11 +28,12 @@ Important note: Uninstalling will kill all (loaded) D.i.e.s item frames.
 
 # Usage
 
-While in game, do `function dies:lib/place_frame_chest` to place a chest containing all possible D.i.e.s. frames in front of you. (Requires air to place.)
-These item frames are what the datapack effect, normal item frames will be ignored.
+While in game, do `/function dies:lib/place_frame_chest` to place a chest containing all possible D.i.e.s. frames in front of you. (Requires air to place.)
+These item frames are what the datapack affect, normal item frames will be ignored.
 
 The lore on the item frames in the chest describe their settings including:
 - Render Distance: How far away a player must be before they despawn.
+  - Shorter render distance can be useful for interior item frames, but generally 32+ should be used.
 - Invisible: Rather the item frame part itself is visible, doesn't effect the item inside.
 - Glowing: Rather the item inside is always brightly lit.
 
