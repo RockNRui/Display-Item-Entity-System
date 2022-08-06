@@ -28,6 +28,9 @@ Important note: Uninstalling will kill all (loaded) D.i.e.s item frames.
 
 # Usage
 
+NOTE: All of the below commands can be accessed via in-game menu by running `/trigger dies.trigger set 1`!
+This also contains aditional settings for render distance, item name hiding, etc. Highly reccomended to use this.
+
 While in game, do `/function dies:lib/place_frame_chest` to place a chest containing all possible D.i.e.s. frames in front of you. (Requires air to place.)
 These item frames are what the datapack affect, normal item frames will be ignored.
 
@@ -42,3 +45,5 @@ As mentioned, named items placed in these frames will also have their names remo
 You may also run `/function dies:lib/register_all_frames` to convert all (loaded) normal item frames into D.i.e.s. item frames. This will not effect the items inside, and will assume a default render distance of 64.
 
 Lastly, it is strongly reccomended to run `/function dies:lib/fix_all_frames` before packaging your map. This will make all (loaded) D.i.e.s. item frames `{Fixed:1b}`, making them unable to be broken by blocks being placed on them. If this is not set, the frames can pop off and leave a custom item unnamed.
+
+There is also a reverse of this, `/function dies:lib/unfix_all_frames`, to undo this and allow you to rotate the items again.

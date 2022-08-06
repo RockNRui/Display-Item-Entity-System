@@ -1,1 +1,2 @@
-trigger dies.setblock_frame_chest set 1
+#Literally just run the trigger lol
+trigger dies.trigger set 2
