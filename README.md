@@ -13,7 +13,7 @@ This datapack dynamically despawns and spawns D.i.e.s.-specific item frames depe
 
 The reason for this is that lots of loaded item frames can cause FPS/TPS issues, so this pack is a counter-measure for that by turning them into much less resource intensive marker entities. These entities are not rendered/handled client-side, bolstering FPS.
 
-Additionally, this pack will hide the names of items in D.i.e.s. item frames until they are taken out.
+Additionally, this pack will hide the names of items in D.i.e.s. item frames until they are taken out. (Configurable via in-game setting.)
 
 Lastly, when a player takes an item from a D.i.e.s. item frame, the item frame is removed.
 
