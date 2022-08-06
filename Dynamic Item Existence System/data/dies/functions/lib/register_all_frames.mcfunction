@@ -1,0 +1,1 @@
+execute as @e[type=#dies:frame,tag=!dies.registered] at @s run function dies:func/register_frame
