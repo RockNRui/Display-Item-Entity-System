@@ -26,6 +26,9 @@ Then `/reload` and the uninstallation is complete. Make sure you do not run this
 
 Important note: Uninstalling will kill all (loaded) D.i.e.s item frames.
 
+This datapack relies on another library by myself. Make sure to install it for D.i.e.s to function properly!
+Black Box Library: `https://github.com/RockNRui/Black-Box-Library`
+
 # Usage
 
 NOTE: All of the below commands can be accessed via in-game menu by running `/trigger dies.trigger set 1`!
