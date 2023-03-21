@@ -30,11 +30,18 @@ Right click the item to rotate, or shift + right click to open the per-item conf
 Items have a variety of options, all of which can be changed from the menu for them such as:
 
 Light Level: Item display's rendered light level.
+
 Count: Amount of the item recieved when taken.
+
 Item Type: Allows you to use a spawn egg to set a loot table for the item instead of a preset item.
+
 Render Distance: How far away the item displays from.
+
 Size: Item's rendered size.
+
 Pose: How the item is displayed. Certain poses only support certain placement faces.
 
+
 Aditionally, you can access the global setting menu from the individual item's menu.
+
 The global menu allows you to change the DEFAULT settings for newly placed items such as a default light level and size.
