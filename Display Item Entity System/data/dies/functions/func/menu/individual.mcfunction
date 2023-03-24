@@ -42,5 +42,7 @@ tellraw @s ["",{"text":"[?] ","color":"#F5CE54","hoverEvent":{"action":"show_tex
 #tellraw @s ["",{"text":"[?] ","color":"#F5CE54","hoverEvent":{"action":"show_text","contents":[{"text":"Save this item as a preset, giving you an item frame which will automatically adopt the settings of this one.","color":"#EFDADA"}]}},{"text":"[Save As Preset Item]","color":"#4EF4A9","clickEvent":{"action":"run_command","value":"/function dies:func/give_item/preset"}}]
 #UNFINISHED WIP
 
+function #minecraft:dies/menu_end
+
 #Warning footer
 tellraw @s {"text":"You may need to scroll up to see the full menu/information.","color":"#EFDADA"}
