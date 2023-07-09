@@ -17,6 +17,8 @@ scoreboard objectives add dies.relog minecraft.custom:minecraft.leave_game
 scoreboard objectives add give_placeable_item trigger
 
 #Assume default setting values
+scoreboard players set $g dies.master 1
+
 execute unless score $gamerule.default.render_distance dies.master matches -999999..999999 run scoreboard players set $gamerule.default.render_distance dies.master 16
 execute unless score $gamerule.default.item_size dies.master matches -999999..999999 run scoreboard players set $gamerule.default.item_size dies.master 4
 execute unless score $gamerule.default.light dies.master matches -999999..999999 run scoreboard players set $gamerule.default.light dies.master -1

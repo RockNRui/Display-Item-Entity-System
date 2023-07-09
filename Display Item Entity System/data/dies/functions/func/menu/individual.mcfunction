@@ -13,7 +13,7 @@ tellraw @s {"text":"*d.i.e.s.*","color":"#F5CE54"}
 tellraw @s {"text":"individual item settings","color":"#4EF4A9"}
 tellraw @s {"text":"Only one person can have a frame selected in a 12 block radius.","color":"#EFDADA"}
 tellraw @s {"text":"A circling lavender highlight indicates which is selected.","color":"#EFDADA"}
-function dies:func/menu/lines/open/global
+execute if score $g dies.master matches 1 run function dies:func/menu/lines/open/global
 function dies:func/menu/lines/open/player
 function bb:lib/chat/blank_line
 

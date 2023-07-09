@@ -8,7 +8,7 @@ function bb:lib/chat_spam
 tellraw @s {"text":"*d.i.e.s.*","color":"#F5CE54"}
 tellraw @s {"text":"player settings","color":"#4EF4A9"}
 tellraw @s {"text":"These settings only apply to you.","color":"#EFDADA"}
-function dies:func/menu/lines/return/global
+execute if score $g dies.master matches 1 run function dies:func/menu/lines/return/global
 function dies:func/menu/lines/return/individual
 function bb:lib/chat/blank_line
 
