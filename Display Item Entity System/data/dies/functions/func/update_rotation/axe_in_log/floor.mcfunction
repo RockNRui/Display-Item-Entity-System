@@ -1,5 +1,5 @@
 
-data merge entity @s {transformation:[0.17364817766693041f,0.9698463103929541f,-0.17101007166283433f,0.3f,-0.984807753012208f,0.1710100716628344f,-0.030153689607045817f,-0.09999999999999998f,0f,0.17364817766693033f,0.984807753012208f,0f,0f,0f,0f,1f]}
+data merge entity @s {transformation:[-0.1690f,-0.9856f,0.0000f,-0.3467f,0.9856f,-0.1690f,0.0000f,-0.0065f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]}
 
 execute if score @s dies.object.display.rotation matches 1 run tp @s ~ ~ ~ 0 0
 execute if score @s dies.object.display.rotation matches 2 run tp @s ~ ~ ~ 45 0
